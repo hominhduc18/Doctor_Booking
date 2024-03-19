@@ -1,0 +1,42 @@
+name: doctorbooking
+description: "A new Flutter project."
+publish_to: 'none' 
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.2.0 <4.0.0'
+
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.2
+  flutter_launcher_icons: "^0.13.1"
+  google_fonts: ^6.2.0
+  models:
+    path: packages/models
+  google_maps_flutter: ^2.5.3
+  equatable: ^2.0.5
+  flutter_bloc: ^8.1.4
+  
+
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^2.0.0
+
+
+
+
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/icons/
+
+
+flutter_icons:
+  android: "launcher_icon"
+  ios: true
+  image_path: "assets/icons/app_icon.png"
